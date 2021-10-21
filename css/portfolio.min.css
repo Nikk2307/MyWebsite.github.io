@@ -110,7 +110,7 @@ a.active,a:active,a:focus,a:hover {
 .navbar-custom .navbar-nav>.active>a {
     border-radius: 3px}
 .navbar-custom.affix {
-    background-color: #de2323;
+    background-color: #b00000;
     padding: 10px 0;
     transition: 0.3s;
     font-size: 14px}
