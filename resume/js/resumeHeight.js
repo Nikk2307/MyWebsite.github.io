@@ -1,27 +1,23 @@
 var iframeDoc;
 var sideNav;
-function OnResumeIframeLoad(){    
+function OnResumeIframeLoad(){
     iframeDoc = document.getElementById('resume-iframe').contentWindow.document;
     sideNav=iframeDoc.getElementById('sideNav');
-    window.scrollTo(0,0); 
+    window.scrollTo(0,0);
     document.body.setAttribute('onscroll', 'MoveNavBarWithScroll()');
     $(document.getElementById('loader')).hide();
     ResizeIFrame();
     SetCallBacks();
 
-    $(window).resize(function() {ResizeIFrame();}); 
+    $(window).resize(function() {ResizeIFrame();});
     // window.setTimeout(function() {//delay because portfolio tiles are being setup
-    // }, 300);   
+    // }, 300);
 }
 function SetCallBacks(){
     var about;
     about = iframeDoc.getElementById('ScrollTo-about');
-    about.onclick = function(){ScrollToElem("about");}    
+    about.onclick = function(){ScrollToElem("about");}
     about.classList.remove("active");
-
-    var publication;
-    publication = iframeDoc.getElementById('ScrollTo-publication');
-    publication.onclick = function(){ScrollToElem("publication");}
 
     var experience;
     experience = iframeDoc.getElementById('ScrollTo-experience');
@@ -34,14 +30,6 @@ function SetCallBacks(){
     var skills;
     skills = iframeDoc.getElementById('ScrollTo-skills');
     skills.onclick = function(){ScrollToElem("skills");}
-
-    var interests;
-    interests = iframeDoc.getElementById('ScrollTo-interests');
-    interests.onclick = function(){ScrollToElem("interests");}
-
-    var blogs;
-    blogs = iframeDoc.getElementById('ScrollTo-blogs');
-    blogs.onclick = function(){ScrollToElem("blogs");}
 }
 function ScrollToElem(elementid){
     var elem = iframeDoc.getElementById(elementid);
@@ -54,8 +42,8 @@ var responsiveWidth=768;
 var iframeTop, endTopPos;
 function ResizeIFrame(){
     document.getElementById('resume-iframe').setAttribute("height", iframeDoc.body.offsetHeight+"px");
-    document.getElementById('resume-iframe').setAttribute("height", iframeDoc.body.offsetHeight+"px");//same line because previous line was not setting right height 
-    document.getElementById('resume').style.height = iframeDoc.body.offsetHeight+"px";//same line because previous line was not setting right height 
+    document.getElementById('resume-iframe').setAttribute("height", iframeDoc.body.offsetHeight+"px");//same line because previous line was not setting right height
+    document.getElementById('resume').style.height = iframeDoc.body.offsetHeight+"px";//same line because previous line was not setting right height
     if(window.innerWidth>=responsiveWidth){//responsive
         sideNav.removeAttribute("style");
         iframeDoc.getElementById('navbarSupportedContent').removeAttribute("style");
@@ -80,7 +68,7 @@ var timer,scroll;
 var topPos;
 function MoveNavBarWithScroll(){
     if(!iframeDoc) return;
-    
+
     topPos = 0;
     scroll=$(window).scrollTop();
     if(scroll>iframeTop){
@@ -95,7 +83,7 @@ function MoveNavBarWithScroll(){
     if(window.innerWidth>=responsiveWidth){
         sideNav.style.top=topPos+"px";
     }
-    else{//responsive 
+    else{//responsive
         topPos+=$('#mainNav').outerHeight();
         topPos+="px";
         if(timer) {
@@ -105,7 +93,7 @@ function MoveNavBarWithScroll(){
         timer = window.setTimeout(function() {
             $(sideNav).animate({top:topPos},100,"linear");
         }, 25);
-        
+
     }
-    
+
 }
