@@ -13,7 +13,7 @@ const Projects = {
             ID: "SpeedManiac",
             Name: "Speed Maniac",
             SmallDescription: "Multiplayer, Lighting, Unity3D, Timeline, Photon, Racing",
-            LargeDescription: "• Speed Maniac is a PVP arcade-style multiplayer racing game with a maximum of 5 players in one racing room. This was the Team project for the 5th Semester in college where I chose Multiplayer programming as the suitable position for me. Even if it was a little challenging, it was a great experience to have!",
+            LargeDescription: "• Speed Maniac is a PVP arcade-style multiplayer racing game with a maximum of 5 players in one racing room.<br> • This was the Team project for the 5th Semester in college where I chose Multiplayer programming as the suitable position for me.",
             EmbedVideoLinkID: "Ru0wdiwoDeA",
             NoOfProjectImages: 6
         },
@@ -21,7 +21,7 @@ const Projects = {
             ID: "TheApocalypse",
             Name: "The Apocalypse",
             SmallDescription: "Windows,Unreal Engine, AI, TPS",
-            LargeDescription: "I always wanted to create a game like last of us, but with more survival mechanics, here is what I came up with, will love your opinions!!<br>Made in Unreal Engine 4 with the only blueprints system.<br>ps:- Models and Animations, not by me, just the logic and mechanics!",
+            LargeDescription: "• I always wanted to create a game like last of us, but with more survival mechanics, here is what I came up with, will love your opinions!!<br> •Made in Unreal Engine 4 with the only blueprints system.<br> •ps:- Models and Animations, not by me, just the logic and mechanics!",
 	    EmbedVideoLinkID: "iMY6l-vYwRg",
             NoOfProjectImages: 5
         },
