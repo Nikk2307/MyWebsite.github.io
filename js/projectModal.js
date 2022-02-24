@@ -1,4 +1,5 @@
 var RankedProjects=[
+    Projects.Details.SpeedManiac,
     Projects.Details.TheApocalypse,
     Projects.Details.TheWasteland,
     Projects.Details.GameJam,
@@ -58,7 +59,7 @@ function ResetModalParams(){
 }
 function SetModalParams(id){
     var ProjectDetail = Projects.Details[id];
-    if(ProjectDetail){ 
+    if(ProjectDetail){
         showLoader();
         document.getElementById("modal-projectname").innerHTML= ProjectDetail.Name;
         document.getElementById("modal-projectsmalldescription").innerHTML= ProjectDetail.SmallDescription;
@@ -70,7 +71,7 @@ function SetModalParams(id){
         }
         else{
             $(elem).hide();
-        }        
+        }
         elem= document.getElementById("modal-videoiframe");
         if(ProjectDetail.EmbedVideoLinkID){
             $(elem).show();
@@ -81,12 +82,12 @@ function SetModalParams(id){
             $(elem).hide();
             hideLoader();
         }
-        SetCarousel(ProjectDetail);        
+        SetCarousel(ProjectDetail);
     }
 }
 function SetCarousel(ProjectDetail){
-    var indicator = document.getElementById("portfolio-carousel-indicator"); 
-    var inner = document.getElementById("portfolio-carousel-inner"); 
+    var indicator = document.getElementById("portfolio-carousel-indicator");
+    var inner = document.getElementById("portfolio-carousel-inner");
 
     var indicatorParent = indicator.parentElement;
     var innerParent = inner.parentElement;
@@ -99,12 +100,12 @@ function SetCarousel(ProjectDetail){
 
     var imgPath= "img/portfolio/"+ProjectDetail.ID+"/"+ProjectDetail.ID;
     for (let i = 1; i <= ProjectDetail.NoOfProjectImages; i++) {
-        
+
         indicator.setAttribute("data-slide-to",i);
         inner.firstElementChild.setAttribute("src",imgPath+i+".jpg");
 
-        indicatorParent.appendChild(indicator.cloneNode(true));   
-        innerParent.appendChild(inner.cloneNode(true));     
+        indicatorParent.appendChild(indicator.cloneNode(true));
+        innerParent.appendChild(inner.cloneNode(true));
     }
     indicatorParent.firstElementChild.classList.add("active");
     innerParent.firstElementChild.classList.add("active");
@@ -116,9 +117,9 @@ function DeleteAllChild(parent){
     }
 }
 
-function showLoader(){    
+function showLoader(){
     $(document.getElementById('loader')).show();
 }
-function hideLoader(){    
+function hideLoader(){
     $(document.getElementById('loader')).hide();
 }

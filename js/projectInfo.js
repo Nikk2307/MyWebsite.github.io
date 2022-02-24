@@ -9,6 +9,14 @@ const Projects = {
             EmbedVideoLinkID: "",
             NoOfProjectImages: 1
         },
+        SpeedManiac: {
+            ID: "SpeedManiac",
+            Name: "Speed Maniac",
+            SmallDescription: "Multiplayer, Lighting, Unity3D, Timeline, Photon, Racing",
+            LargeDescription: "• Speed Maniac is a PVP arcade-style multiplayer racing game with a maximum of 5 players in one racing room. This was the Team project for the 5th Semester in college where I chose Multiplayer programming as the suitable position for me. Even if it was a little challenging, it was a great experience to have!",
+            EmbedVideoLinkID: "Ru0wdiwoDeA",
+            NoOfProjectImages: 4
+        },
         TheApocalypse: {
             ID: "TheApocalypse",
             Name: "The Apocalypse",
@@ -25,7 +33,7 @@ const Projects = {
 	    EmbedVideoLinkID: "jODMhuTHlzw",
             NoOfProjectImages: 7
         },
-	GameJam: {
+	       GameJam: {
             ID: "GameJam",
             Name: "Two Day Game Jam",
             SmallDescription: "Unity, Puzzle, TPP, C#",
