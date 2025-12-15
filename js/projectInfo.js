@@ -33,12 +33,12 @@ const Projects = {
 	    EmbedVideoLinkID: "jODMhuTHlzw",
             NoOfProjectImages: 7
         },
-	       GameJam: {
+	    GameJam: {
             ID: "GameJam",
             Name: "Two Day Game Jam",
             SmallDescription: "Unity, Puzzle, TPP, C#",
             LargeDescription: "• This was the result of 2 days of Game Competition where I was a lead developer with other 3 people.<br>• Enemies pathfinding was setup with Unity navigation system.<br>• Post processing was used with default render pipeline(Other render pipelines were not available).<br> • Worked on implementation of lighting, movement, AI, Puzzle and Inventory Mechanics as well as level design.",
-	    EmbedVideoLinkID: "8SEobaihl1o",
+			EmbedVideoLinkID: "8SEobaihl1o",
             NoOfProjectImages: 6
         },
         TWLevelDesign: {
@@ -49,5 +49,13 @@ const Projects = {
             EmbedVideoLinkID: "BO0MTTzkGj4",
             NoOfProjectImages: 1
         },
+		DeadTown: {
+            ID: "DeadTown",
+            Name: "Dead Town",
+            SmallDescription: "Android, Unity, FPS, Zombie",
+            LargeDescription: "<big><bold>Zombie Action Shooter – Core Gameplay Programmer</bold></big><br>• Professional team-developed zombie shooter built from scratch at a game development company. <br> • Served as the Core Gameplay Programmer, owning core systems end-to-end.<br> • Developed fast-paced combat mechanics with a focus on responsive controls and precise aiming.<br> • Implemented weapon systems including firearms and explosive devices.<br> • Collaborated closely with designers, artists, and engineers to align gameplay vision and execution.<br> <big>Technical Stack & Systems </big><br> • Gameplay Programming: Player controls, combat logic, weapon behavior.<br> • AI & Enemies: Zombie behavior, wave systems, combat interactions.<br> • Systems Architecture: Modular gameplay systems, state machines.<br> • Performance: Gameplay optimization and responsiveness tuning.<br> • Tools & Workflow: Version control, debugging, iterative playtesting.",
+			EmbedVideoLinkID: "jODMhuTHlzw",
+            NoOfProjectImages: 4
+        }
     }
 };

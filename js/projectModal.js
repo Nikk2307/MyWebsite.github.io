@@ -4,6 +4,7 @@ var RankedProjects=[
     Projects.Details.TheWasteland,
     Projects.Details.GameJam,
     Projects.Details.TWLevelDesign,
+	Projects.Details.DeadTown,
 ];
 //Functions
 SetPorfolioElements();
