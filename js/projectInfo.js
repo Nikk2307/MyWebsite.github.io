@@ -9,6 +9,14 @@ const Projects = {
             EmbedVideoLinkID: "",
             NoOfProjectImages: 1
         },
+		DeadTown: {
+            ID: "DeadTown",
+            Name: "Dead Town",
+            SmallDescription: "Android, Unity, FPS, Zombie",
+            LargeDescription: "<big><b>Zombie Action Shooter – Core Gameplay Programmer</b></big><br>• Professional team-developed zombie shooter built from scratch at a game development company. <br> • Served as the Core Gameplay Programmer, owning core systems end-to-end.<br> • Developed fast-paced combat mechanics with a focus on responsive controls and precise aiming.<br> • Implemented weapon systems including firearms and explosive devices.<br> • Collaborated closely with designers, artists, and engineers to align gameplay vision and execution.<br> <big>Technical Stack & Systems </big><br> • Gameplay Programming: Player controls, combat logic, weapon behavior.<br> • AI & Enemies: Zombie behavior, wave systems, combat interactions.<br> • Systems Architecture: Modular gameplay systems, state machines.<br> • Performance: Gameplay optimization and responsiveness tuning.<br> • Tools & Workflow: Version control, debugging, iterative playtesting.",
+			EmbedVideoLinkID: "jODMhuTHlzw",
+            NoOfProjectImages: 4
+        },
         SpeedManiac: {
             ID: "SpeedManiac",
             Name: "Speed Maniac",
@@ -48,14 +56,6 @@ const Projects = {
             LargeDescription: "• This was the updated level design of The Wasteland game, where I have implemented post-processing, timeline for maximum quality.",
             EmbedVideoLinkID: "BO0MTTzkGj4",
             NoOfProjectImages: 1
-        },
-		DeadTown: {
-            ID: "DeadTown",
-            Name: "Dead Town",
-            SmallDescription: "Android, Unity, FPS, Zombie",
-            LargeDescription: "<big><bold>Zombie Action Shooter – Core Gameplay Programmer</bold></big><br>• Professional team-developed zombie shooter built from scratch at a game development company. <br> • Served as the Core Gameplay Programmer, owning core systems end-to-end.<br> • Developed fast-paced combat mechanics with a focus on responsive controls and precise aiming.<br> • Implemented weapon systems including firearms and explosive devices.<br> • Collaborated closely with designers, artists, and engineers to align gameplay vision and execution.<br> <big>Technical Stack & Systems </big><br> • Gameplay Programming: Player controls, combat logic, weapon behavior.<br> • AI & Enemies: Zombie behavior, wave systems, combat interactions.<br> • Systems Architecture: Modular gameplay systems, state machines.<br> • Performance: Gameplay optimization and responsiveness tuning.<br> • Tools & Workflow: Version control, debugging, iterative playtesting.",
-			EmbedVideoLinkID: "jODMhuTHlzw",
-            NoOfProjectImages: 4
         }
     }
 };

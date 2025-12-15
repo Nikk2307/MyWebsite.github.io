@@ -1,10 +1,10 @@
 var RankedProjects=[
+	Projects.Details.DeadTown,
     Projects.Details.SpeedManiac,
     Projects.Details.TheApocalypse,
     Projects.Details.TheWasteland,
     Projects.Details.GameJam,
-    Projects.Details.TWLevelDesign,
-	Projects.Details.DeadTown,
+    Projects.Details.TWLevelDesign
 ];
 //Functions
 SetPorfolioElements();
