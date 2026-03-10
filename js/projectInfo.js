@@ -18,6 +18,24 @@ const Projects = {
 			DownloadLink: "https://play.google.com/store/apps/details?id=com.renderedideas.deadtownzombie3d&pcampaignid=web_share",
             NoOfProjectImages: 4
         },
+		CarStunt2: {
+            ID: "CarStunt2",
+            Name: "Car Stunt 2",
+            SmallDescription: "Amazon, Android, Unity, Casual, Stunt Racing",
+            LargeDescription: "<big><b>Gameplay Programmer</b></big><br>• Updated the physics and gameplay mechanics to make the cars handle better, focusing on making stunts feel more satisfying and responsive for the player. <br> • Managed the live side of the game, handling monthly updates and keeping the gameplay balanced so there was always something new for players to do.<br> • Worked on changing up the game’s levels and environments to give them a fresh look and improve the overall atmosphere of the tracks.<br> • Collaborated closely with designers, artists, and engineers to align gameplay vision and execution.<br> <big>Technical Stack & Systems </big><br> • Performance: Gameplay optimization and responsiveness tuning.<br> • Tools & Workflow: Version control, debugging, iterative playtesting.",
+			//EmbedVideoLinkID: "jODMhuTHlzw",
+			DownloadLink: "https://www.amazon.com/Rendered-Ideas-Car-Stunt-2/dp/B09RB5GYZ2/ref=sr_1_34?s=mobile-apps&search-type=ss&sr=1-34",
+            NoOfProjectImages: 3
+        },
+		LilyRun3D: {
+            ID: "LilyRun3D",
+            Name: "Lily Run 3D",
+            SmallDescription: "Amazon, Android, Unity, Casual",
+            LargeDescription: "<big><b>Gameplay Programmer</b></big><br>• Updated the gameplay mechanics to make Lily’s running and jumping feel more fluid and responsive, ensuring the controls felt "tight" for players. <br> • Worked on the LiveOps side of the game, handling the behind-the-scenes updates and content tweaks to keep the game engaging for the long term.<br> • Focused on finding and fixing bugs to get rid of any gameplay hiccups, making the overall experience much smoother and more stable.<br> • Collaborated closely with designers, artists, and engineers to align gameplay vision and execution.<br> <big>Technical Stack & Systems </big><br> • Performance: Gameplay optimization and responsiveness tuning.<br> • Tools & Workflow: Version control, debugging, iterative playtesting.",
+			//EmbedVideoLinkID: "jODMhuTHlzw",
+			DownloadLink: "https://www.amazon.com/Rendered-Ideas-Lily-Run-3D/dp/B09Z6BCBTQ/ref=sr_1_12?s=mobile-apps&search-type=ss&sr=1-12",
+            NoOfProjectImages: 3
+        },
         SpeedManiac: {
             ID: "SpeedManiac",
             Name: "Speed Maniac",
