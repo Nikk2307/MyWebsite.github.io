@@ -27,15 +27,15 @@ const Projects = {
 			 DownloadLink: "https://www.amazon.com/Rendered-Ideas-Car-Stunt-2/dp/B09RB5GYZ2/ref=sr_1_34?s=mobile-apps&search-type=ss&sr=1-34",
              NoOfProjectImages: 3
          },
-		// LilyRun3D: {
-            // ID: "LilyRun3D",
-            // Name: "Lily Run 3D",
-            // SmallDescription: "Amazon, Android, Unity, Casual",
-            // LargeDescription: "<big><b>Gameplay Programmer</b></big><br>• Updated the gameplay mechanics to make Lily’s running and jumping feel more fluid and responsive, ensuring the controls felt tight for players. <br> • Worked on the LiveOps side of the game, handling the behind-the-scenes updates and content tweaks to keep the game engaging for the long term.<br> • Focused on finding and fixing bugs to get rid of any gameplay hiccups, making the overall experience much smoother and more stable.<br> • Collaborated closely with designers, artists, and engineers to align gameplay vision and execution.<br> <big>Technical Stack & Systems </big><br> • Performance: Gameplay optimization and responsiveness tuning.<br> • Tools & Workflow: Version control, debugging, iterative playtesting.",
-			// //EmbedVideoLinkID: "jODMhuTHlzw",
-			// DownloadLink: "https://www.amazon.com/Rendered-Ideas-Lily-Run-3D/dp/B09Z6BCBTQ/ref=sr_1_12?s=mobile-apps&search-type=ss&sr=1-12",
-            // NoOfProjectImages: 3
-        // },
+		 LilyRun3D: {
+             ID: "LilyRun3D",
+             Name: "Lily Run 3D",
+             SmallDescription: "Amazon, Android, Unity, Casual",
+             LargeDescription: "<big><b>Gameplay Programmer</b></big><br>• Updated the gameplay mechanics to make Lily’s running and jumping feel more fluid and responsive, ensuring the controls felt tight for players. <br> • Worked on the LiveOps side of the game, handling the behind-the-scenes updates and content tweaks to keep the game engaging for the long term.<br> • Focused on finding and fixing bugs to get rid of any gameplay hiccups, making the overall experience much smoother and more stable.<br> • Collaborated closely with designers, artists, and engineers to align gameplay vision and execution.<br> <big>Technical Stack & Systems </big><br> • Performance: Gameplay optimization and responsiveness tuning.<br> • Tools & Workflow: Version control, debugging, iterative playtesting.",
+			 //EmbedVideoLinkID: "jODMhuTHlzw",
+			 DownloadLink: "https://www.amazon.com/Rendered-Ideas-Lily-Run-3D/dp/B09Z6BCBTQ/ref=sr_1_12?s=mobile-apps&search-type=ss&sr=1-12",
+             NoOfProjectImages: 3
+         },
         SpeedManiac: {
             ID: "SpeedManiac",
             Name: "Speed Maniac",

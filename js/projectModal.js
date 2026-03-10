@@ -1,7 +1,7 @@
 var RankedProjects=[
 	Projects.Details.DeadTown,
 	Projects.Details.CarStunt2,
-	// Projects.Details.LilyRun3D,
+	Projects.Details.LilyRun3D,
     Projects.Details.SpeedManiac,
     Projects.Details.TheApocalypse,
     Projects.Details.TheWasteland,
